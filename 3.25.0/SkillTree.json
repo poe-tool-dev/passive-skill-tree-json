@@ -11482,7 +11482,7 @@
             "icon": "Art/2DArt/SkillIcons/passives/Berserker/DmgAttackSpeed.png",
             "ascendancyName": "Berserker",
             "stats": [
-                "Gain 1 Rage on Melee Hit",
+                "Gain 1 Rage on Attack Hit",
                 "10% increased Physical Damage"
             ],
             "reminderText": [
@@ -11505,7 +11505,7 @@
             "icon": "Art/2DArt/SkillIcons/passives/Berserker/DmgAttackSpeed.png",
             "ascendancyName": "Berserker",
             "stats": [
-                "Gain 1 Rage on Melee Hit",
+                "Gain 1 Rage on Attack Hit",
                 "10% increased Physical Damage"
             ],
             "reminderText": [
@@ -19009,7 +19009,7 @@
                 "OpalescentOil"
             ],
             "stats": [
-                "Banners also cause Killed Enemies to have 20% chance to Explode, dealing a tenth of their Life as Physical Damage",
+                "Enemies Killed near your Banner have 20% chance to Explode, dealing a tenth of their Life as Physical Damage",
                 "Banner Skills have 20% increased Area of Effect"
             ],
             "group": 78,
@@ -19034,7 +19034,7 @@
                 {
                     "effect": 40037,
                     "stats": [
-                        "Banners also Maim Enemies"
+                        "Enemies near your Banner are Maimed"
                     ],
                     "reminderText": [
                         "(Maimed enemies have 30% reduced Movement Speed)"
@@ -19067,7 +19067,7 @@
                 {
                     "effect": 38114,
                     "stats": [
-                        "Banners also cause Enemies to take 8% increased Damage"
+                        "Enemies near your Banner take 8% increased Damage"
                     ]
                 }
             ],
@@ -23234,7 +23234,7 @@
             "icon": "Art/2DArt/SkillIcons/passives/CallToArms.png",
             "isKeystone": true,
             "stats": [
-                "Warcries do not grant Buffs or Charges to You\n100% more Warcry Duration"
+                "Your Warcries do not grant Buffs or Charges to You\n100% more Warcry Duration"
             ],
             "flavourText": [
                 "Follow me, and I will show you strength!"
@@ -30590,7 +30590,7 @@
                 {
                     "effect": 40037,
                     "stats": [
-                        "Banners also Maim Enemies"
+                        "Enemies near your Banner are Maimed"
                     ],
                     "reminderText": [
                         "(Maimed enemies have 30% reduced Movement Speed)"
@@ -30623,7 +30623,7 @@
                 {
                     "effect": 38114,
                     "stats": [
-                        "Banners also cause Enemies to take 8% increased Damage"
+                        "Enemies near your Banner take 8% increased Damage"
                     ]
                 }
             ],
@@ -36702,7 +36702,7 @@
         },
         "10311": {
             "skill": 10311,
-            "name": "Banner Area of Effect",
+            "name": "Banner Aura Effect",
             "icon": "Art/2DArt/SkillIcons/passives/BannerAreaNode.png",
             "stats": [
                 "Banner Skills have 10% increased Aura Effect"
@@ -36719,7 +36719,7 @@
         },
         "45503": {
             "skill": 45503,
-            "name": "Banner Area of Effect",
+            "name": "Banner Aura Effect",
             "icon": "Art/2DArt/SkillIcons/passives/BannerAreaNode.png",
             "stats": [
                 "Banner Skills have 10% increased Aura Effect"
@@ -36769,7 +36769,7 @@
                 {
                     "effect": 40037,
                     "stats": [
-                        "Banners also Maim Enemies"
+                        "Enemies near your Banner are Maimed"
                     ],
                     "reminderText": [
                         "(Maimed enemies have 30% reduced Movement Speed)"
@@ -36802,7 +36802,7 @@
                 {
                     "effect": 38114,
                     "stats": [
-                        "Banners also cause Enemies to take 8% increased Damage"
+                        "Enemies near your Banner take 8% increased Damage"
                     ]
                 }
             ],
@@ -52609,7 +52609,7 @@
                 {
                     "effect": 40037,
                     "stats": [
-                        "Banners also Maim Enemies"
+                        "Enemies near your Banner are Maimed"
                     ],
                     "reminderText": [
                         "(Maimed enemies have 30% reduced Movement Speed)"
@@ -52642,7 +52642,7 @@
                 {
                     "effect": 38114,
                     "stats": [
-                        "Banners also cause Enemies to take 8% increased Damage"
+                        "Enemies near your Banner take 8% increased Damage"
                     ]
                 }
             ],
@@ -73532,7 +73532,6 @@
             "orbit": 2,
             "orbitIndex": 14,
             "out": [
-                "49391",
                 "13375"
             ],
             "in": [
@@ -73601,8 +73600,7 @@
             "orbitIndex": 0,
             "out": [],
             "in": [
-                "13375",
-                "20953"
+                "13375"
             ]
         },
         "17749": {
